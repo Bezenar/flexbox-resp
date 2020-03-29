@@ -3,28 +3,6 @@
 $widths: 10, 20, 25, 30, 40, 50, 60, 70, 75, 80, 90, 100;
 $float-widths: 33, 66;
 //______________________________________________________________________________________MIXINS____//
-@mixin resp($var) {
-  @if ($var == "l") {
-    @media (max-width: 1199px) {
-      @content;
-    }
-  }
-  @if ($var == "m") {
-    @media (max-width: 899px) {
-      @content;
-    }
-  }
-  @if ($var == "s") {
-    @media (max-width: 599px) {
-      @content;
-    }
-  }
-  @if ($var == "xs") {
-    @media (max-width: 320px) {
-      @content;
-    }
-  }
-}
 @mixin resp-widths($var) {
   @each $items in $widths {
     &.#{$var}-wid-#{$items} {
