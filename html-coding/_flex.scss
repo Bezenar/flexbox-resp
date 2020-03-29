@@ -123,8 +123,8 @@ $array-ac: ac-start, ac-center, ac-end, ac-stretch, ac-sa, ac-sb;
   //_____________________________________________________CLASSES WITHOUT MEDIA BREAKPOINTS________//
   @else {
     //___________________________________________________________________FLEX WRAP CLASSES________//
-    .nowrap {
-      flex-wrap: nowrap;
+    .wrap {
+      flex-wrap: wrap;
     }
     //_____________________________________________________________FLEX DIRECTIONS CLASSES________//
     @each $var in $array-dir {

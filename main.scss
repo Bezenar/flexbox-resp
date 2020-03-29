@@ -1,4 +1,5 @@
 //________________________________________________________________________________IMPORT PARTS____//
+@import "./html-coding/reset";
 @import "./html-coding/colors";
 @import "./html-coding/resp";
 @import "./html-coding/widths";
@@ -25,29 +26,4 @@ body {
   width: $container-width;
   max-width: $max-container-width;
   margin: 0 auto;
-}
-//______________________________________________________________RESET STANDART BROWSERS STYLES____//
-* {
-  box-sizing: border-box;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
-  padding: 0;
-}
-ul,
-ol {
-  list-style: none;
-}
-a {
-  text-decoration: none;
-  color: $linkColor;
-}
-input {
-  border: none;
-  outline: none;
 }

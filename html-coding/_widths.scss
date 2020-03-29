@@ -32,7 +32,7 @@ $float-widths: 33, 66;
     }
   }
   @each $items in $float-widths {
-    &.#{var}-wid-#{$items} {
+    &.#{$var}-wid-#{$items} {
       $items: $items + $items / 100;
       width: #{$items + "%"};
     }
